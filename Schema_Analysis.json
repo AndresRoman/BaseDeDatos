@@ -1,0 +1,1352 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 10,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 10,
+          "values": [
+            "5c55d37ee985964348eff1b7",
+            "5c55e90637f6014348bf574b",
+            "5c55ee8837f6014348bf574c",
+            "5c55f2af37f6014348bf574d",
+            "5c55f5ec37f6014348bf574e",
+            "5c55f8a137f6014348bf574f",
+            "5c55fbf537f6014348bf5750",
+            "5c55ffc337f6014348bf5751",
+            "5c56011a37f6014348bf5752",
+            "5c56024237f6014348bf5753"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 10,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "AgresionPrevia",
+      "path": "AgresionPrevia",
+      "count": 3,
+      "types": [
+        {
+          "name": "Undefined",
+          "type": "Undefined",
+          "path": "AgresionPrevia",
+          "count": 7,
+          "total_count": 0,
+          "probability": 0.7,
+          "unique": 1,
+          "has_duplicates": true
+        },
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "AgresionPrevia",
+          "count": 3,
+          "values": [
+            "Si",
+            "Violación",
+            "Golpes"
+          ],
+          "total_count": 0,
+          "probability": 0.3,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": [
+        "Undefined",
+        "String"
+      ],
+      "has_duplicates": true,
+      "probability": 0.3
+    },
+    {
+      "name": "Agresor",
+      "path": "Agresor",
+      "count": 10,
+      "types": [
+        {
+          "name": "Document",
+          "bsonType": "Document",
+          "path": "Agresor",
+          "count": 10,
+          "fields": [
+            {
+              "name": "Apellidos",
+              "path": "Agresor.Apellidos",
+              "count": 9,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Agresor.Apellidos",
+                  "count": 9,
+                  "values": [
+                    "N.",
+                    "O.F.",
+                    "Reyes Robledo",
+                    "N.",
+                    "M. N.",
+                    "Cervantes",
+                    "Vázquez Escamilla",
+                    "N o M",
+                    "Verdugo Machado"
+                  ],
+                  "total_count": 0,
+                  "probability": 0.9,
+                  "unique": 8,
+                  "has_duplicates": true
+                },
+                {
+                  "name": "Undefined",
+                  "type": "Undefined",
+                  "path": "Agresor.Apellidos",
+                  "count": 1,
+                  "total_count": 0,
+                  "probability": 0.1,
+                  "unique": 1,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": [
+                "String",
+                "Undefined"
+              ],
+              "has_duplicates": true,
+              "probability": 0.9
+            },
+            {
+              "name": "Edad",
+              "path": "Agresor.Edad",
+              "count": 5,
+              "types": [
+                {
+                  "name": "Int32",
+                  "bsonType": "Int32",
+                  "path": "Agresor.Edad",
+                  "count": 5,
+                  "values": [
+                    34,
+                    23,
+                    40,
+                    43,
+                    22
+                  ],
+                  "total_count": 0,
+                  "probability": 0.5,
+                  "unique": 5,
+                  "has_duplicates": false
+                },
+                {
+                  "name": "Undefined",
+                  "type": "Undefined",
+                  "path": "Agresor.Edad",
+                  "count": 5,
+                  "total_count": 0,
+                  "probability": 0.5,
+                  "unique": 1,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 10,
+              "type": [
+                "Int32",
+                "Undefined"
+              ],
+              "has_duplicates": true,
+              "probability": 0.5
+            },
+            {
+              "name": "Nacionalidad",
+              "path": "Agresor.Nacionalidad",
+              "count": 7,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Agresor.Nacionalidad",
+                  "count": 7,
+                  "values": [
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana"
+                  ],
+                  "total_count": 0,
+                  "probability": 0.7,
+                  "unique": 1,
+                  "has_duplicates": true
+                },
+                {
+                  "name": "Undefined",
+                  "type": "Undefined",
+                  "path": "Agresor.Nacionalidad",
+                  "count": 3,
+                  "total_count": 0,
+                  "probability": 0.3,
+                  "unique": 1,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 10,
+              "type": [
+                "String",
+                "Undefined"
+              ],
+              "has_duplicates": true,
+              "probability": 0.7
+            },
+            {
+              "name": "Nombre",
+              "path": "Agresor.Nombre",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Agresor.Nombre",
+                  "count": 10,
+                  "values": [
+                    "Roberto Carlos",
+                    "Macario Antonio",
+                    "Alaín",
+                    "Misael",
+                    "David Concepción",
+                    "Fermín Roque",
+                    "Rubén",
+                    "Víctor",
+                    "Alfredo",
+                    "Carlos Javier"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 10,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": false,
+              "probability": 1
+            },
+            {
+              "name": "Ocupacion",
+              "path": "Agresor.Ocupacion",
+              "count": 2,
+              "types": [
+                {
+                  "name": "Undefined",
+                  "type": "Undefined",
+                  "path": "Agresor.Ocupacion",
+                  "count": 8,
+                  "total_count": 0,
+                  "probability": 0.8,
+                  "unique": 1,
+                  "has_duplicates": true
+                },
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Agresor.Ocupacion",
+                  "count": 2,
+                  "values": [
+                    "Trabajador petrolero",
+                    "Empleado en call center"
+                  ],
+                  "total_count": 0,
+                  "probability": 0.2,
+                  "unique": 2,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": [
+                "Undefined",
+                "String"
+              ],
+              "has_duplicates": true,
+              "probability": 0.2
+            },
+            {
+              "name": "Sentencia",
+              "path": "Agresor.Sentencia",
+              "count": 6,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Agresor.Sentencia",
+                  "count": 6,
+                  "values": [
+                    "Prision preventiva",
+                    "Prision preventiva",
+                    "40 años de prisión",
+                    "Prision preventiva",
+                    "60 años de prisión",
+                    "Prision preventiva"
+                  ],
+                  "total_count": 0,
+                  "probability": 0.6,
+                  "unique": 3,
+                  "has_duplicates": true
+                },
+                {
+                  "name": "Undefined",
+                  "type": "Undefined",
+                  "path": "Agresor.Sentencia",
+                  "count": 4,
+                  "total_count": 0,
+                  "probability": 0.4,
+                  "unique": 1,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 10,
+              "type": [
+                "String",
+                "Undefined"
+              ],
+              "has_duplicates": true,
+              "probability": 0.6
+            },
+            {
+              "name": "Situacion",
+              "path": "Agresor.Situacion",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Agresor.Situacion",
+                  "count": 10,
+                  "values": [
+                    "Detenido",
+                    "Detenido",
+                    "Detenido",
+                    "Detenido",
+                    "Detenido",
+                    "Detenido",
+                    "Detenido",
+                    "Prófugo",
+                    "Detenido",
+                    "Detenido"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 2,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            }
+          ],
+          "total_count": 0,
+          "probability": 1
+        }
+      ],
+      "total_count": 10,
+      "type": "Document",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "Arma",
+      "path": "Arma",
+      "count": 8,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Arma",
+          "count": 8,
+          "values": [
+            "Arma Blanca",
+            "Golpes",
+            "Mano limpia",
+            "Arma de fuego",
+            "Arma Blanca",
+            "Arma de fuego",
+            "Arma de fuego",
+            "Cruz de madera"
+          ],
+          "total_count": 0,
+          "probability": 0.8,
+          "unique": 5,
+          "has_duplicates": true
+        },
+        {
+          "name": "Undefined",
+          "type": "Undefined",
+          "path": "Arma",
+          "count": 2,
+          "total_count": 0,
+          "probability": 0.2,
+          "unique": 1,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 10,
+      "type": [
+        "String",
+        "Undefined"
+      ],
+      "has_duplicates": true,
+      "probability": 0.8
+    },
+    {
+      "name": "Causa",
+      "path": "Causa",
+      "count": 9,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Causa",
+          "count": 9,
+          "values": [
+            "Puñaladas",
+            "Golpes",
+            "Asfixia",
+            "Disparos",
+            "Puñaladas",
+            "Disparos",
+            "Disparos",
+            "Traumatismo craneoencefálico",
+            "Golpes y descuartizamiento"
+          ],
+          "total_count": 0,
+          "probability": 0.9,
+          "unique": 6,
+          "has_duplicates": true
+        },
+        {
+          "name": "Undefined",
+          "type": "Undefined",
+          "path": "Causa",
+          "count": 1,
+          "total_count": 0,
+          "probability": 0.1,
+          "unique": 1,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": [
+        "String",
+        "Undefined"
+      ],
+      "has_duplicates": true,
+      "probability": 0.9
+    },
+    {
+      "name": "Circunstancias",
+      "path": "Circunstancias",
+      "count": 10,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Circunstancias",
+          "count": 10,
+          "values": [
+            "Una mujer fue asesinada a cuchilladas y su cuerpo fue semienterrado por el feminicida, en la colonia Solidaridad, debido a rivalidad entre bandas",
+            "Los restos óseos de una mujer fueron localizaron en el interior de la misma vivienda en la que fue encontrada enterrada la propietaria del inmueble de nombre Elsa Olivarría de 48 años, residente de la colonia Fundo Legal",
+            "Joven asesinada por su pareja en el CERESO estaba a punto de quedar en libertad",
+            "Una mujer fue asesinada la madrugada de ayer y otra más resultó gravemente herida, luego de ser atacadas presuntamente por un hombre, en Caborca, Sonora",
+            "Sujeto originario del ejido Ceiba fue detenido por la Policía Municipal, luego que con once certeras puñaladas le diera muerte a su progenitora, al parecer porque ésta se negó a darle dinero para seguir en la parranda.",
+            "Una mujer fue asesinada por su excónyugue a balazos por negarse a bailar con él durante los festejos del Carnaval de la localidad de El Sauz municipio de Cardonal la madrugada del Día del Amor y la Amistad.",
+            "Un hombre presuntamente asesinó a su madre para quedarse con su casa, en la que ambos vivían en la delegación Xochimilco.",
+            "Víctor Vázquez Escamilla, presuntamente asesinó a su esposa, Mireya Sarabia Martínez",
+            "Fuerzas de seguridad encontraron el cuerpo desnudo de una mujer al interior del panteón “San Rafael”, en Poza Rica",
+            "Los restos desmembrados de una mujer fueron localizados al interior de dos inmuebles de la colonia Granjas Nuevas"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 10,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "EstadoCaso",
+      "path": "EstadoCaso",
+      "count": 10,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "EstadoCaso",
+          "count": 10,
+          "values": [
+            "Resuelto",
+            "Resuelto",
+            "Investigación",
+            "Resuelto",
+            "Investigación",
+            "Resuelto",
+            "Investigación",
+            "Investigación",
+            "Investigación",
+            "Investigación"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 10,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "Fecha",
+      "path": "Fecha",
+      "count": 10,
+      "types": [
+        {
+          "name": "Date",
+          "bsonType": "Date",
+          "path": "Fecha",
+          "count": 10,
+          "values": [
+            "2018-02-04T21:00:00.000Z",
+            "2018-02-05T23:30:00.000Z",
+            "2018-02-09T02:30:00.000Z",
+            "2018-02-11T03:30:00.000Z",
+            "2018-02-11T21:00:00.000Z",
+            "2018-02-14T01:00:00.000Z",
+            "2018-02-14T10:00:00.000Z",
+            "2018-02-25T22:42:00.000Z",
+            "2018-02-24T16:27:00.000Z",
+            "2018-02-19T15:48:00.000Z"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 10,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": "Date",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "Fuente",
+      "path": "Fuente",
+      "count": 10,
+      "types": [
+        {
+          "name": "Array",
+          "bsonType": "Array",
+          "path": "Fuente",
+          "count": 10,
+          "types": [
+            {
+              "name": "Document",
+              "bsonType": "Document",
+              "path": "Fuente",
+              "count": 17,
+              "fields": [
+                {
+                  "name": "Autor",
+                  "path": "Fuente.Autor",
+                  "count": 14,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "Fuente.Autor",
+                      "count": 14,
+                      "values": [
+                        "Fredy Martín Pérez",
+                        "Alerta Chiapas",
+                        "Alerta Chiapas",
+                        "César Barragán",
+                        "Paloma Sánchez Martínez",
+                        "El Imparcial",
+                        "El Imparcial",
+                        "José Demetrio Perez",
+                        "Juan Ricardo Montoya",
+                        "El Independiente",
+                        "El Gráfico",
+                        "Excelsior",
+                        "xeu Noticias",
+                        "Cristian Torres"
+                      ],
+                      "total_count": 0,
+                      "probability": 0.8235294117647058,
+                      "unique": 12,
+                      "has_duplicates": true
+                    },
+                    {
+                      "name": "Undefined",
+                      "type": "Undefined",
+                      "path": "Fuente.Autor",
+                      "count": 3,
+                      "total_count": 0,
+                      "probability": 0.17647058823529413,
+                      "unique": 1,
+                      "has_duplicates": true
+                    }
+                  ],
+                  "total_count": 17,
+                  "type": [
+                    "String",
+                    "Undefined"
+                  ],
+                  "has_duplicates": true,
+                  "probability": 0.8235294117647058
+                },
+                {
+                  "name": "Categoria",
+                  "path": "Fuente.Categoria",
+                  "count": 15,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "Fuente.Categoria",
+                      "count": 15,
+                      "values": [
+                        "Estados",
+                        "Blog",
+                        "Blog",
+                        "Notas",
+                        "Local",
+                        "Notas",
+                        "Notas",
+                        "Sucesos",
+                        "Estados",
+                        "Justicia",
+                        "La roja",
+                        "Comunidad",
+                        "Policiaca",
+                        "Información",
+                        "Información"
+                      ],
+                      "total_count": 0,
+                      "probability": 0.8823529411764706,
+                      "unique": 10,
+                      "has_duplicates": true
+                    },
+                    {
+                      "name": "Undefined",
+                      "type": "Undefined",
+                      "path": "Fuente.Categoria",
+                      "count": 2,
+                      "total_count": 0,
+                      "probability": 0.11764705882352941,
+                      "unique": 1,
+                      "has_duplicates": true
+                    }
+                  ],
+                  "total_count": 17,
+                  "type": [
+                    "String",
+                    "Undefined"
+                  ],
+                  "has_duplicates": true,
+                  "probability": 0.8823529411764706
+                },
+                {
+                  "name": "Fecha",
+                  "path": "Fuente.Fecha",
+                  "count": 17,
+                  "types": [
+                    {
+                      "name": "Date",
+                      "bsonType": "Date",
+                      "path": "Fuente.Fecha",
+                      "count": 17,
+                      "values": [
+                        "2019-01-24T17:00:00.000Z",
+                        "2019-01-24T17:00:00.000Z",
+                        "2019-01-24T17:00:00.000Z",
+                        "2019-01-28T18:00:00.000Z",
+                        "2019-01-29T12:00:00.000Z",
+                        "2019-01-29T18:00:00.000Z",
+                        "2019-01-29T18:00:00.000Z",
+                        "2019-01-29T17:00:00.000Z",
+                        "2019-01-29T20:00:00.000Z",
+                        "2019-01-29T20:00:00.000Z",
+                        "2019-01-29T21:00:00.000Z",
+                        "2019-01-29T21:00:00.000Z",
+                        "2019-01-25T14:00:00.000Z",
+                        "2019-01-24T17:00:00.000Z",
+                        "2019-01-24T17:00:00.000Z",
+                        "2019-01-24T17:00:00.000Z",
+                        "2019-01-26T17:00:00.000Z"
+                      ],
+                      "total_count": 0,
+                      "probability": 1,
+                      "unique": 9,
+                      "has_duplicates": true
+                    }
+                  ],
+                  "total_count": 17,
+                  "type": "Date",
+                  "has_duplicates": true,
+                  "probability": 1
+                },
+                {
+                  "name": "Palabras",
+                  "path": "Fuente.Palabras",
+                  "count": 6,
+                  "types": [
+                    {
+                      "name": "Undefined",
+                      "type": "Undefined",
+                      "path": "Fuente.Palabras",
+                      "count": 11,
+                      "total_count": 0,
+                      "probability": 0.6470588235294118,
+                      "unique": 1,
+                      "has_duplicates": true
+                    },
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "Fuente.Palabras",
+                      "count": 6,
+                      "values": [
+                        "Feminicidio, Chiapas",
+                        "Caborca, Feminicidio, Enfermera",
+                        "Asesinatos, Caborca",
+                        "Cunduacán",
+                        "Huejutla, Hidalgo, Inseguridad",
+                        "Puebla policia, feminicidio, femicida"
+                      ],
+                      "total_count": 0,
+                      "probability": 0.35294117647058826,
+                      "unique": 6,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 17,
+                  "type": [
+                    "Undefined",
+                    "String"
+                  ],
+                  "has_duplicates": true,
+                  "probability": 0.35294117647058826
+                },
+                {
+                  "name": "Texto",
+                  "path": "Fuente.Texto",
+                  "count": 17,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "Fuente.Texto",
+                      "count": 17,
+                      "values": [
+                        "Asesinan y semientierran a mujer en Villaflores, Chiapas",
+                        "Detienen a sujeto como probable responsable de feminicio en Villaflores",
+                        "Vinculan a proceso a Roberto \"N\" como probable responsable de feminicidio en Villaflores",
+                        "Macario Antonio, ‘El Macho’ confiesa; mató y enterró en patio a tía y a esposa",
+                        "Joven asesinada por su pareja en el CERESO estaba a punto de quedar en libertad",
+                        "Aplican procedimiento abreviado y sentencian a 40 años a feminicida",
+                        "Asesinan a mujer en Caborca; era enfermera",
+                        "Mata a puñaladas a su mamá por no darle dinero para alcohol",
+                        "Balean a docente de preescolar en Huejutla, Hidalgo",
+                        "Investiga PGJEH a presunto feminicida del Cardonal",
+                        "Mata a su madre para quedarse con casa en Xochimilco",
+                        "Tenía prohibido acercarse a su madre; aún así la visitó y la mató",
+                        "Mireya, fue asesinada por su pareja en Acatlán",
+                        "Violan y asesinan a mujer al interior de panteón \"San Rafael\", en Poza Rica",
+                        "Identifican a mujer asesinada en panteón de POza Rica; era futbolista amateur",
+                        "Detienen a presunto femicida en Poza Rica",
+                        "A sangre fría, el homicidio de Delia Isabel"
+                      ],
+                      "total_count": 0,
+                      "probability": 1,
+                      "unique": 17,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 17,
+                  "type": "String",
+                  "has_duplicates": false,
+                  "probability": 1
+                },
+                {
+                  "name": "URL",
+                  "path": "Fuente.URL",
+                  "count": 17,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "Fuente.URL",
+                      "count": 17,
+                      "values": [
+                        "http://www.eluniversal.com.mx/estados/asesinan-y-semientierran-mujer-en-villaflores-chiapas",
+                        "https://alertachiapas.com/2018/02/07/detienen-a-sujeto-como-probable-responsable-de-feminicidio-en-villaflores/",
+                        "https://alertachiapas.com/2018/02/25/vinculan-a-proceso-a-roberto-n-como-probable-responsable-de-feminicidio-en-villaflores/",
+                        "http://www.eldiariodesonora.com.mx/notas.php?nota=105778",
+                        "https://www.elheraldodechihuahua.com.mx/local/joven-asesinada-por-su-pareja-en-el-cereso-estaba-a-punto-de-quedar-en-libertad-891738.html",
+                        "https://www.elimparcial.com/EdicionEnLinea/Notas/Sonora/13022018/1308335-Aplican-procedimiento-abreviado-y-sentencian-a-40-anos-a-feminicida.html",
+                        "https://www.elimparcial.com/EdicionEnLinea/Notas/Sonora/11022018/1307836-Asesinan-a-mujer-en-Caborca-era-enfermera.html",
+                        "https://www.diariopresente.mx/sucesos/mata-a-punaladas-a-su-mama-por-no-darle-dinero-para-alcohol/205877",
+                        "https://www.jornada.com.mx/ultimas/2018/02/15/balean-a-docente-de-preescolar-en-huejutla-hidalgo-2293.html",
+                        "https://www.elindependientedehidalgo.com.mx/investiga-pgjeh-a-presunto-feminicida-del-cardonal/",
+                        "http://www.elgrafico.mx/la-roja/22-02-2018/mata-su-madre-para-quedarse-con-casa-en-xochimilco",
+                        "https://www.excelsior.com.mx/comunidad/2018/02/23/1222157",
+                        "https://www.elsoldepuebla.com.mx/local/estado/mireya-fue-asesinada-por-su-pareja-en-acatlan-1027658.html",
+                        "https://www.alcalorpolitico.com/informacion/violan-y-asesinan-a-mujer-al-interior-de-panteon-san-rafael-en-poza-rica-256549.html#.WqmhL_nOXIV ",
+                        "https://www.alcalorpolitico.com/informacion/identifican-a-mujer-asesinada-en-panteon-de-poza-rica-era-futbolista-amateur-256577.html#.XE5-MMHQjDe",
+                        "https://www.xeu.mx/nota.cfm?id=953270",
+                        "http://zetatijuana.com/2018/02/a-sangre-fria-el-homicidio-de-delia-isabel/"
+                      ],
+                      "total_count": 0,
+                      "probability": 1,
+                      "unique": 17,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 17,
+                  "type": "String",
+                  "has_duplicates": false,
+                  "probability": 1
+                }
+              ],
+              "total_count": 0,
+              "probability": 1
+            }
+          ],
+          "lengths": [
+            3,
+            1,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            3,
+            1
+          ],
+          "total_count": 17,
+          "probability": 1,
+          "average_length": 1.7
+        }
+      ],
+      "total_count": 10,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "Lugar",
+      "path": "Lugar",
+      "count": 10,
+      "types": [
+        {
+          "name": "Document",
+          "bsonType": "Document",
+          "path": "Lugar",
+          "count": 10,
+          "fields": [
+            {
+              "name": "Departamento",
+              "path": "Lugar.Departamento",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Lugar.Departamento",
+                  "count": 10,
+                  "values": [
+                    "Chiapas",
+                    "Sonora",
+                    "Chihuahua",
+                    "Sonora",
+                    "Tabasco",
+                    "Hidalgo",
+                    "Ciudad de México",
+                    "Puebla",
+                    "Veracruz",
+                    "Baja California"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 9,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            },
+            {
+              "name": "Descripcion",
+              "path": "Lugar.Descripcion",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Lugar.Descripcion",
+                  "count": 10,
+                  "values": [
+                    "Calle 19 Poniente y 3a Norte",
+                    "Calle Corregidora 426",
+                    "Centro de Reinserción Social de Chihuahua",
+                    "Calle Circuito de los Franciscos",
+                    "Calle Adolfo Ruiz Cortines",
+                    "Localidad de El Sauz",
+                    "Cerrada de Melchor Ocampo",
+                    "Calle Joaquín Osorio número 6 del barrio de La Palma de este municipio de Acatlán de Osorio",
+                    "Panteón San Rafael en Poza Rica",
+                    "Interior de dos inmuebles de la colonia Granjas Nuevas"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 10,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": false,
+              "probability": 1
+            },
+            {
+              "name": "Pais",
+              "path": "Lugar.Pais",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Lugar.Pais",
+                  "count": 10,
+                  "values": [
+                    "Mexico",
+                    "Mexico",
+                    "Mexico",
+                    "Mexico",
+                    "Mexico",
+                    "Mexico",
+                    "Mexico",
+                    "Mexico",
+                    "Mexico",
+                    "Mexico"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 1,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            },
+            {
+              "name": "Provincia",
+              "path": "Lugar.Provincia",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Lugar.Provincia",
+                  "count": 10,
+                  "values": [
+                    "Villaflores",
+                    "Nogales",
+                    "Chihuahua",
+                    "Heroica Caborca",
+                    "Cunduacán",
+                    "Cardonal",
+                    "Xochimilco",
+                    "Acatlán",
+                    "Poza Rica",
+                    "Mexicali"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 10,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": false,
+              "probability": 1
+            }
+          ],
+          "total_count": 0,
+          "probability": 1
+        }
+      ],
+      "total_count": 10,
+      "type": "Document",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "Relacion",
+      "path": "Relacion",
+      "count": 7,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Relacion",
+          "count": 7,
+          "values": [
+            "Sobrino",
+            "Pareja",
+            "Hijo",
+            "Excónyugue",
+            "Hijo",
+            "Esposo",
+            "Relación de amistad"
+          ],
+          "total_count": 0,
+          "probability": 0.7,
+          "unique": 6,
+          "has_duplicates": true
+        },
+        {
+          "name": "Undefined",
+          "type": "Undefined",
+          "path": "Relacion",
+          "count": 3,
+          "total_count": 0,
+          "probability": 0.3,
+          "unique": 1,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 10,
+      "type": [
+        "String",
+        "Undefined"
+      ],
+      "has_duplicates": true,
+      "probability": 0.7
+    },
+    {
+      "name": "Testigos",
+      "path": "Testigos",
+      "count": 2,
+      "types": [
+        {
+          "name": "Undefined",
+          "type": "Undefined",
+          "path": "Testigos",
+          "count": 8,
+          "total_count": 0,
+          "probability": 0.8,
+          "unique": 1,
+          "has_duplicates": true
+        },
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "Testigos",
+          "count": 2,
+          "values": [
+            "Vecinos",
+            "Moradores"
+          ],
+          "total_count": 0,
+          "probability": 0.2,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": [
+        "Undefined",
+        "String"
+      ],
+      "has_duplicates": true,
+      "probability": 0.2
+    },
+    {
+      "name": "TiempoRelacion",
+      "path": "TiempoRelacion",
+      "count": 1,
+      "types": [
+        {
+          "name": "Undefined",
+          "type": "Undefined",
+          "path": "TiempoRelacion",
+          "count": 9,
+          "total_count": 0,
+          "probability": 0.9,
+          "unique": 1,
+          "has_duplicates": true
+        },
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "TiempoRelacion",
+          "count": 1,
+          "values": [
+            "6 meses"
+          ],
+          "total_count": 0,
+          "probability": 0.1,
+          "unique": 1,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": [
+        "Undefined",
+        "String"
+      ],
+      "has_duplicates": true,
+      "probability": 0.1
+    },
+    {
+      "name": "Victima",
+      "path": "Victima",
+      "count": 10,
+      "types": [
+        {
+          "name": "Document",
+          "bsonType": "Document",
+          "path": "Victima",
+          "count": 10,
+          "fields": [
+            {
+              "name": "Apellidos",
+              "path": "Victima.Apellidos",
+              "count": 9,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Victima.Apellidos",
+                  "count": 9,
+                  "values": [
+                    "Cruz Santiago",
+                    "Olivarría",
+                    "Talamantes Moreno",
+                    "N.",
+                    "Reyes N.",
+                    "Cruz Resendiz",
+                    "Martínez",
+                    "L. C.",
+                    "Verdugo Machado"
+                  ],
+                  "total_count": 0,
+                  "probability": 0.9,
+                  "unique": 9,
+                  "has_duplicates": false
+                },
+                {
+                  "name": "Undefined",
+                  "type": "Undefined",
+                  "path": "Victima.Apellidos",
+                  "count": 1,
+                  "total_count": 0,
+                  "probability": 0.1,
+                  "unique": 1,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": [
+                "String",
+                "Undefined"
+              ],
+              "has_duplicates": false,
+              "probability": 0.9
+            },
+            {
+              "name": "Edad",
+              "path": "Victima.Edad",
+              "count": 5,
+              "types": [
+                {
+                  "name": "Int32",
+                  "bsonType": "Int32",
+                  "path": "Victima.Edad",
+                  "count": 5,
+                  "values": [
+                    22,
+                    48,
+                    24,
+                    25,
+                    68
+                  ],
+                  "total_count": 0,
+                  "probability": 0.5,
+                  "unique": 5,
+                  "has_duplicates": false
+                },
+                {
+                  "name": "Undefined",
+                  "type": "Undefined",
+                  "path": "Victima.Edad",
+                  "count": 5,
+                  "total_count": 0,
+                  "probability": 0.5,
+                  "unique": 1,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 10,
+              "type": [
+                "Int32",
+                "Undefined"
+              ],
+              "has_duplicates": true,
+              "probability": 0.5
+            },
+            {
+              "name": "Nacionalidad",
+              "path": "Victima.Nacionalidad",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Victima.Nacionalidad",
+                  "count": 10,
+                  "values": [
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana",
+                    "Mexicana"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 1,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            },
+            {
+              "name": "Nombre",
+              "path": "Victima.Nombre",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Victima.Nombre",
+                  "count": 10,
+                  "values": [
+                    "Laura",
+                    "Elsa Ernestina",
+                    "Sofía Marina",
+                    "Bibiana",
+                    "María",
+                    "Sandra",
+                    "Julia",
+                    "Mireya Sarabia",
+                    "Sandra L",
+                    "Delia Isabel"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 10,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": false,
+              "probability": 1
+            },
+            {
+              "name": "Ocupacion",
+              "path": "Victima.Ocupacion",
+              "count": 4,
+              "types": [
+                {
+                  "name": "Undefined",
+                  "type": "Undefined",
+                  "path": "Victima.Ocupacion",
+                  "count": 6,
+                  "total_count": 0,
+                  "probability": 0.6,
+                  "unique": 1,
+                  "has_duplicates": true
+                },
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "Victima.Ocupacion",
+                  "count": 4,
+                  "values": [
+                    "Asesora en Call center",
+                    "Enfermera",
+                    "Jubilada",
+                    "Deportista"
+                  ],
+                  "total_count": 0,
+                  "probability": 0.4,
+                  "unique": 4,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": [
+                "Undefined",
+                "String"
+              ],
+              "has_duplicates": true,
+              "probability": 0.4
+            }
+          ],
+          "total_count": 0,
+          "probability": 1
+        }
+      ],
+      "total_count": 10,
+      "type": "Document",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 10
+}
